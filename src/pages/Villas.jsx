@@ -11,7 +11,7 @@ function Villas() {
         </h1>
         <VillaTableOperation />
       </div>
-      <div className="overflow-x-scroll">
+      <div className="overflow-x-auto">
         <VillaTable />
       </div>
       <AddVilla />
