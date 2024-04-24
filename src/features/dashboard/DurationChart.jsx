@@ -113,7 +113,7 @@ function DurationChart({ className, confirmedStay }) {
   return (
     <div
       className={cn(
-        "dark:bg-bg-dark overflow-auto rounded-md border border-gray-200 bg-white px-6 py-5 dark:border-gray-800",
+        "overflow-auto rounded-md border border-gray-200 bg-white px-6 py-5 dark:border-gray-800 dark:bg-bg-dark",
         className,
       )}
     >
@@ -151,6 +151,8 @@ function DurationChart({ className, confirmedStay }) {
             align="right"
             wrapperStyle={{
               height: "100%",
+              display: "grid",
+              placeItems: "center",
             }}
           />
         </PieChart>
